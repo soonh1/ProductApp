@@ -1,0 +1,9 @@
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\bin\Debug\netcoreapp3.1\ProductModels.Lib.deps.json
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\bin\Debug\netcoreapp3.1\ProductModels.Lib.dll
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\bin\Debug\netcoreapp3.1\ProductModels.Lib.pdb
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\obj\Debug\netcoreapp3.1\ProductModels.Lib.csprojAssemblyReference.cache
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\obj\Debug\netcoreapp3.1\ProductModels.Lib.AssemblyInfoInputs.cache
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\obj\Debug\netcoreapp3.1\ProductModels.Lib.AssemblyInfo.cs
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\obj\Debug\netcoreapp3.1\ProductModels.Lib.csproj.CoreCompileInputs.cache
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\obj\Debug\netcoreapp3.1\ProductModels.Lib.dll
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductModels.Lib\obj\Debug\netcoreapp3.1\ProductModels.Lib.pdb
