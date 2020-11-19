@@ -111,3 +111,5 @@ C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\Produc
 C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductApp.Web\obj\Debug\netcoreapp3.1\ProductApp.Web.csproj.CoreCompileInputs.cache
 C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductApp.Web\obj\Debug\netcoreapp3.1\ProductApp.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Johnny\Desktop\UCL\Webudvikling\Webprogrammering - kode\Projekts\ProductApp\ProductApp\ProductApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
