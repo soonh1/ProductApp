@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ProductModels.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ProductModels.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductModels.Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProductModels.Lib/1.0.0": {
+      "type": "project",
+      "path": "../ProductModels.Lib/ProductModels.Lib.csproj",
+      "msbuildProject": "../ProductModels.Lib/ProductModels.Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ProductModels.Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Johnny\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Johnny\\Desktop\\UCL\\Webudvikling\\Webprogrammering - kode\\Projekts\\ProductApp\\ProductApp\\ProductModels.Lib\\ProductModels.Lib.csproj": {
+              "projectPath": "C:\\Users\\Johnny\\Desktop\\UCL\\Webudvikling\\Webprogrammering - kode\\Projekts\\ProductApp\\ProductApp\\ProductModels.Lib\\ProductModels.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
