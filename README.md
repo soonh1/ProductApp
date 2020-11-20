@@ -9,7 +9,7 @@
 #### Sass guideline
 https://sass-guidelin.es/ 
 
-## Architecture
+##### Architecture
 
 * base/
 * components/
