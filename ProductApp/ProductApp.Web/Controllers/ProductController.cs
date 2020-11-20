@@ -29,6 +29,17 @@ namespace ProductApp.Web.Controllers
             var result = JsonSerializer.Deserialize<List<Student>>(json, options);
             //Returnere
             return View(result);
+
+            /*
+            // https://www.tutorialsteacher.com/mvc/integrate-controller-view-model 
+            List<Student> students = new List<Student>
+            {
+                new Student() { Id = 1, FirstName = "Alan", LastName = "Super", Email = "Alan@super.dk", CPR = 12131411 },
+                new Student() { Id = 10, FirstName = "Alan2", LastName = "Super1", Email = "Alan@super2.dk", CPR = 12131411 }
+            };
+
+            return View(students);
+            */
         }
 
         // GET: ProductController/Details/5

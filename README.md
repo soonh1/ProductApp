@@ -6,3 +6,15 @@
 
 #### Class Library (.NET Core) - ProductModels.Lib
 
+#### Sass guideline
+https://sass-guidelin.es/ 
+
+## Architecture
+
+* base/
+* components/
+* layout/
+* pages/
+* themes/
+* abstracts/
+* vendors/
