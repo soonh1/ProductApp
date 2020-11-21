@@ -8,6 +8,7 @@
 
 ## Sass guideline
 https://sass-guidelin.es/ 
+https://www.w3schools.com/sass/sass_intro.php
 
 ##### Architecture
 

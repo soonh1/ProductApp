@@ -20,4 +20,12 @@
     <ProjectReference Include="..\ProductModels.Lib\ProductModels.Lib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\themes\" />
+    <Folder Include="wwwroot\css\abstracts\" />
+    <Folder Include="wwwroot\css\vendors\" />
+    <Folder Include="wwwroot\css\components\" />
+    <Folder Include="wwwroot\css\base\" />
+  </ItemGroup>
+
 </Project>
