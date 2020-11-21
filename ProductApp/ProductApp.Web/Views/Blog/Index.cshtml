@@ -9,12 +9,13 @@
 <div class="grid-container">
     @foreach (var item in Model)
     {
-    <a asp-action="Create">
-        <div class="grid-item">
-            @Html.DisplayFor(modelItem => item.FirstName)
+    <div class="tt">
+        <a asp-action="Create">
+            <div class="grid-item">
+                @Html.DisplayFor(modelItem => item.FirstName)
 
-        </div>
-    </a>
-    
+            </div>
+        </a>
+    </div>
     }
 </div>
