@@ -8,7 +8,7 @@ user requests are routed to a Controller which is responsible for working with t
 and/or retrieve results of queries. The Controller chooses the View to display to the user, and provides it with any Model data it requires.
 
 The following diagram shows the three main components and which ones reference the others:
-https://docs.microsoft.com/en-us/aspnet/core/mvc/overview/_static/mvc.png?view=aspnetcore-5.0
+![alt text](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview/_static/mvc.png?view=aspnetcore-5.0 "MVC")
 
 #### What is ASP.NET Core MVC
 
