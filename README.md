@@ -1,4 +1,4 @@
-# ProductApp- ASP.NET Core MVC
+# ProductApp - ASP.NET Core MVC
 
 #### What is the MVC pattern?
 
