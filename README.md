@@ -1,4 +1,6 @@
-# ProductApp - ASP.NET Core MVC
+# ProductApp 
+
+## ASP.NET Core Web Application - MVC - ProductApp.Web
 
 #### What is the MVC pattern?
 
@@ -16,8 +18,6 @@ The ASP.NET Core MVC framework is a lightweight, open source, highly testable pr
 
 ASP.NET Core MVC provides a patterns-based way to build dynamic websites that enables a clean separation of concerns. 
 It gives you full control over markup, supports TDD-friendly development and uses the latest web standards.
-
-## ASP.NET Core Web Application - MVC - ProductApp.Web
 
 ## ASP.NET Core Web Application - API - ProductData.Db
 
