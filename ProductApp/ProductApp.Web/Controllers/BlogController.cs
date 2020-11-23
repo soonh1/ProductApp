@@ -15,6 +15,7 @@ namespace ProductApp.Web.Controllers
         // GET: BlogController
         public ActionResult Index()
         {
+            
             // hent data fra eks. db eller API eller...
             //List<Student> students = new List<Student>();
             //return View(students);
@@ -34,12 +35,14 @@ namespace ProductApp.Web.Controllers
             // https://www.tutorialsteacher.com/mvc/integrate-controller-view-model 
             List<Student> students = new List<Student>
             {
-                new Student() { Id = 1, FirstName = "Alan", LastName = "Super", Email = "Alan@super.dk", CPR = 12131411 },
-                new Student() { Id = 10, FirstName = "Alan2", LastName = "Super1", Email = "Alan@super2.dk", CPR = 12131411 }
+                new Student() { Id = 1, FirstName = "Collapsible Dice Holderrrr", LastName = "3d print", Email = "30. oktober 2020", CPR = 12131411 },
+                new Student() { Id = 10, FirstName = "Mid-Century Modern Moth Clock", LastName = "laser cutter", Email = "24. oktober 2020", CPR = 12131411 },
+                new Student() { Id = 10, FirstName = "Anti-Gravity Planter", LastName = "3d print", Email = "29. september 2020", CPR = 1213141123 }
             };
 
             return View(students);
             */
+
         }
 
         // GET: BlogController/Details/5

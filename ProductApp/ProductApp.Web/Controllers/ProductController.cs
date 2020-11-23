@@ -30,6 +30,7 @@ namespace ProductApp.Web.Controllers
             //Returnere
             return View(result);
 
+
             /*
             // https://www.tutorialsteacher.com/mvc/integrate-controller-view-model 
             List<Student> students = new List<Student>

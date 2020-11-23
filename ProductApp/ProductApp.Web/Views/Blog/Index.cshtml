@@ -3,17 +3,48 @@
 @{
     ViewData["Title"] = "Blog";
 }
+<div class="title">
+    <h1>Blog</h1>
+</div>
 
-<h1>Blog</h1>
+<div class="blog-topic">
+    <div class="topic">
+        <h4>
+            Alle
+        </h4>
+        <h4>
+            3D print
+        </h4>
+        <h4>
+            Laser cutter
+        </h4>
+        <h4>
+            CNC
+        </h4>
+    </div>
+    <div class="search">
+        <input class="form-control" />
+        <img src="/img/search-12-64.png" alt="search-icon">
+    </div>
+</div>
 
 <div class="grid-container">
     @foreach (var item in Model)
     {
-    <div class="tt">
+    <div class="blog-container">
         <a asp-action="#">
-            <div class="grid-item">
-                @Html.DisplayFor(modelItem => item.FirstName)
-
+            <div class="grid-item blog-top">
+                <div class="category-upper-right">
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </div>
+            </div>
+            <div class="grid-item blog-bottom">
+                <div class="blog-date">
+                        @Html.DisplayFor(modelItem => item.Email)
+                </div>
+                <div class="blog-title">
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </div>
             </div>
         </a>
     </div>

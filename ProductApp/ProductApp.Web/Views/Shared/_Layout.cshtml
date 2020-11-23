@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ProductApp.Web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/main.css" />
+    <!-- 
+        ASP.NET Core Project Often Fails to Load CSS in Chrome After Initial Run Without Debugging. 
+        Solution:
+        You you using app-append-version to take care of caching for js and css files eg: 
+        <link href="~/css/app.css" rel="stylesheet" asp-append-version="true" /> <script src="~/js/app.js" asp-append-version="true">
+        </script> This can help solve this issues in both dev and production.
+     -->
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <script src="~/js/app.js" asp-append-version="true"></script>
 </head>
 <body>
     <header>

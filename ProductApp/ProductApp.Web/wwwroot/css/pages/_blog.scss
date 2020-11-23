@@ -1,23 +1,129 @@
-﻿
+﻿/* define variables for colors */
+//Dark Blue - #24305e
+//Soft red - #f76c6c
+//Soft Blue - #a8d0e6
+
+$primary_1: #24305e;
+$primary_2: #f76c6c;
+$primary_3: #a8d0e6;
+$blog_category_text: #fff;
+$blog_text: #A9A6A1;
+
+
 .test {
     background-color: red;
+}
+
+/* ------------------------------------BLOG -----------------------------------------*/
+.title{
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    }
+    margin: 40px 0;
+}
+
+.blog-topic {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+
+    .topic {
+        display: grid;
+        grid-template-columns: 100px 150px 200px 100px;
+        text-align: center;
+        margin: 0 0 0 20px;
+
+        h4 {
+            border: 2px solid $primary_2;
+            margin: 0 20px 0 0;
+            padding: 7px 0;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            color: $primary_2;
+            text-transform: uppercase;
+        }
+    }
+
+    .search {
+        display: grid;
+        grid-template-columns: auto auto;
+        position: absolute;
+        right: 0px;
+        margin: 0 0 0 20px;
+        height: 20px;
+
+        img {
+            width: 35px;
+            margin: 0 0 0 15px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
 }
 
-.tt{
-    margin: 100px;
+.blog-container {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 4px 4px 10px #888888;
+
+    a {
+        color: black;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
+
+.blog-top {
+    position: relative;
+    height: 180px;
+    background-color: black;
+
+    .category-upper-right {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 14px;
+        padding: 0 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: $primary_2;
+        color: $blog_category_text;
+    }
+}
+
+.blog-bottom {
+    padding: 10px 20px;
+
+    .blog-date {
+        font-size: 14px;
+        font-weight: bold;
+        color: $primary_2;
+    }
+
+    .blog-title {
+        font-size: 22px;
+        font-weight: bold;
+        color: $blog_text;
+    }
+}
+
+/* ------------------------------------BLOG INDLÆG -----------------------------------------*/
